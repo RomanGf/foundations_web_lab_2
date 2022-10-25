@@ -1,0 +1,70 @@
+.rect1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border: 7px double;
+  background-color: #ff8c00;
+  border-radius: 15px;
+}
+
+.rect2 {
+  position: absolute;
+  top: 190px;
+  left: 65px;
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  border: 7px double;
+  opacity: 0.8;
+  background-color: #b22222;
+  border-radius: 15px;
+}
+
+.trafficLight {
+  margin-top: 10px;
+  position: absolute;
+  background-color: gray;
+  width: 50px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.trafficLight_1 {
+    margin-top: 10px;
+    margin-left: 100px;
+    transform:rotate() ;
+    background-color: gray;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+
+.red {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: red;
+}
+.yellow {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: yellow;
+}
+.green {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: green;
+}
